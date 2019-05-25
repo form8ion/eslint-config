@@ -1,7 +1,5 @@
 # eslint-config
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/eslint-config.svg)](https://greenkeeper.io/)
-
 [shareable configuration](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
 for [ESLint](https://eslint.org)
 
@@ -27,6 +25,7 @@ $ npm install @form8ion/eslint-config --save-dev
 [![Commitizen friendly][commitizen-badge]][commitizen-link]
 [![semantic-release][semantic-release-badge]][semantic-release-link]
 [![PRs Welcome][PRs-badge]][PRs-link]
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/eslint-config.svg)](https://greenkeeper.io/)
 
 ### Dependencies
 
