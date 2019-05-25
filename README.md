@@ -1,6 +1,6 @@
 # eslint-config
 
-[shareable configuration](https://eslint.org/docs/user-guide/configuring#using-a-shareable-configuration-package)
+[shareable configuration](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
 for [ESLint](https://eslint.org)
 
 <!-- status badges -->
