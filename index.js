@@ -1,4 +1,6 @@
 module.exports = {
+  plugins: ['filenames'],
+
   extends: [
     'eslint:recommended',
     'plugin:import/recommended',
@@ -25,6 +27,8 @@ module.exports = {
           minProperties: 0
         }
       }
-    ]
+    ],
+    'filenames/match-regex': ['error', '^[a-z0-9\\-\\.]+$'],
+    'arrow-parens': ['error', 'as-needed']
   }
 };
