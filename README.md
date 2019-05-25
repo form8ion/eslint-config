@@ -1,5 +1,7 @@
 # eslint-config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/form8ion/eslint-config.svg)](https://greenkeeper.io/)
+
 [shareable configuration](https://eslint.org/docs/developer-guide/shareable-configs#shareable-configs)
 for [ESLint](https://eslint.org)
 
