@@ -29,6 +29,7 @@ module.exports = {
       }
     ],
     'filenames/match-regex': ['error', '^[a-z0-9\\-\\.]+$'],
-    'arrow-parens': ['error', 'as-needed']
+    'arrow-parens': ['error', 'as-needed'],
+    yoda: ['error', 'always']
   }
 };
