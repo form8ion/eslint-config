@@ -1,0 +1,33 @@
+{
+  "name": "@form8ion/eslint-config",
+  "description": "shareable configuration for ESLint",
+  "license": "MIT",
+  "version": "0.0.0-semantically-released",
+  "sideEffects": false,
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "form8ion/eslint-config",
+  "bugs": "https://github.com/form8ion/eslint-config/issues",
+  "homepage": "https://npm.im/@form8ion/eslint-config",
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "scripts": {
+    "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:md": "remark . --frail",
+    "lint:sensitive": "ban",
+    "lint:travis": "travis-lint .travis.yml"
+  },
+  "devDependencies": {
+    "@form8ion/commitlint-config": "^1.0.2",
+    "@form8ion/remark-lint-preset": "^1.0.0",
+    "ban-sensitive-files": "^1.9.2",
+    "cz-conventional-changelog": "^2.1.0",
+    "husky": "^2.3.0",
+    "npm-run-all": "^4.1.5",
+    "remark-cli": "^6.0.1",
+    "travis-lint": "^1.0.0"
+  }
+}
