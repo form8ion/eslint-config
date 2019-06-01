@@ -32,6 +32,7 @@ module.exports = {
     'arrow-parens': ['error', 'as-needed'],
     yoda: ['error', 'always'],
     'no-multi-spaces': ['error', {ignoreEOLComments: true}],
-    'max-len': ['error', 120]
+    'max-len': ['error', 120],
+    'global-require': 'off'
   }
 };
