@@ -33,6 +33,7 @@ module.exports = {
     yoda: ['error', 'always'],
     'no-multi-spaces': ['error', {ignoreEOLComments: true}],
     'max-len': ['error', 120],
-    'global-require': 'off'
+    'global-require': 'off',
+    'import/prefer-default-export': 'off'
   }
 };
