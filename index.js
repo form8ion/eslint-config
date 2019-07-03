@@ -3,8 +3,9 @@ module.exports = {
 
   extends: [
     'eslint:recommended',
+    'airbnb',
     'plugin:import/recommended',
-    'airbnb'
+    'plugin:eslint-comments/recommended'
   ],
 
   rules: {
