@@ -35,6 +35,8 @@ module.exports = {
     yoda: ['error', 'always'],
     'no-multi-spaces': ['error', {ignoreEOLComments: true}],
     'max-len': ['error', 120],
+    'one-var': ['error', {uninitialized: 'always', initialized: 'never'}],
+    'one-var-declaration-per-line': ['error', 'initializations'],
     'global-require': 'off',
     'import/prefer-default-export': 'off'
   }
