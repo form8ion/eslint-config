@@ -9,6 +9,7 @@ module.exports = {
   ],
 
   rules: {
+    'no-console': 'error',
     'comma-dangle': ['error', 'never'],
     'object-curly-spacing': ['error', 'never'],
     'object-curly-newline': [
