@@ -12,7 +12,17 @@ for [ESLint](https://eslint.org)
 [![npm][npm-badge]][npm-link]
 [![MIT license][license-badge]][license-link]
 
-### Installation
+### Extending in your own account
+
+#### Installation
+
+```sh
+$ npm install @form8ion/eslint-config --save-prod
+```
+
+### For projects in the `form8ion` organization
+
+#### Installation
 
 ```sh
 $ npm install @form8ion/eslint-config --save-dev
