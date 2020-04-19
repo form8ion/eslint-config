@@ -20,6 +20,11 @@ for [ESLint](https://eslint.org)
 $ npm install @form8ion/eslint-config --save-prod
 ```
 
+#### Example configs that extend this one
+
+* [@travi/eslint-config](https://npm.im/@travi/eslint-config)
+* [@dsmjs/eslint-config](https://npm.im/@dsmjs/eslint-config)
+
 ### For projects in the `form8ion` organization
 
 #### Installation
