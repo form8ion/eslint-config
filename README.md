@@ -21,6 +21,19 @@ for [ESLint](https://eslint.org)
   * [Dependencies](#dependencies)
   * [Verification](#verification)
 
+## Philosophy
+
+Lint rules can be controversial, but I believe they should be extensive and
+strict. I think that consistency is more valuable in a codebase than personal
+preference, especially when those preferences differ between team members and
+even individual members at different times.
+
+Because of this, the [Airbnb base config](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb-base)
+is extended as the as the base ruleset of this config. It is not extended
+because of agreeing with all of the rules, but because it defines an extensive
+ruleset in a strict way. Rules are overridden from there, both to make some
+more strict and to make some enforce a different convention.
+
 ## Usage
 
 <!-- consumer badges -->
