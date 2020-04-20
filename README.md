@@ -10,11 +10,13 @@ for [ESLint](https://eslint.org)
 ## Table of Contents
 
 * [Usage](#usage)
-  * [Extending in your own account](#extending-in-your-own-account)
+  * [Extending under your own scope](#extending-under-your-own-scope)
     * [Installation](#installation)
+    * [Extend from the file exported as `main` in your config package](#extend-from-the-file-exported-as-main-in-your-config-package)
     * [Example configs that extend this one](#example-configs-that-extend-this-one)
   * [For projects in the `form8ion` organization](#for-projects-in-the-form8ion-organization)
     * [Installation](#installation-1)
+    * [Add to the project config](#add-to-the-project-config)
 * [Contributing](#contributing)
   * [Dependencies](#dependencies)
   * [Verification](#verification)
@@ -26,12 +28,30 @@ for [ESLint](https://eslint.org)
 [![npm][npm-badge]][npm-link]
 [![MIT license][license-badge]][license-link]
 
-### Extending in your own account
+### Extending under your own scope
+
+Extending this config allows you to use this config as a base for your own
+config, enabling you to define further rules or override some defined in this
+config.
+
+It is recommended to create your own config early rather than using this one
+directly even if you do not define any overrides at first. That way, your
+projects will already depend on your custom config when you decide to define
+custom rules later.
 
 #### Installation
 
 ```sh
 $ npm install @form8ion/eslint-config --save-prod
+```
+
+#### Extend from the file exported as `main` in your config package
+
+Note that you can use the [shorthand version](https://eslint.org/docs/developer-guide/shareable-configs#npm-scoped-modules)
+of the config name
+
+```js
+module.exports = {extends: '@form8ion'};
 ```
 
 #### Example configs that extend this one
@@ -45,6 +65,14 @@ $ npm install @form8ion/eslint-config --save-prod
 
 ```sh
 $ npm install @form8ion/eslint-config --save-dev
+```
+
+#### Add to the project config
+
+Such as in an `.eslintrc.yml`
+
+```yml
+extends: '@form8ion'
 ```
 
 ## Contributing
