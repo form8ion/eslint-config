@@ -7,6 +7,18 @@ for [ESLint](https://eslint.org)
 
 [![Build Status][ci-badge]][ci-link]
 
+## Table of Contents
+
+* [Usage](#usage)
+  * [Extending in your own account](#extending-in-your-own-account)
+    * [Installation](#installation)
+    * [Example configs that extend this one](#example-configs-that-extend-this-one)
+  * [For projects in the `form8ion` organization](#for-projects-in-the-form8ion-organization)
+    * [Installation](#installation-1)
+* [Contributing](#contributing)
+  * [Dependencies](#dependencies)
+  * [Verification](#verification)
+
 ## Usage
 
 <!-- consumer badges -->
