@@ -111,6 +111,14 @@ $ npm install
 $ npm test
 ```
 
+## Related Projects
+
+* [eslint-config-react](https://github.com/form8ion/eslint-config-react)
+* [eslint-config-hal](https://github.com/form8ion/eslint-config-hal)
+* [eslint-config-mocha](https://github.com/form8ion/eslint-config-mocha)
+* [eslint-config-cucumber](https://github.com/form8ion/eslint-config-cucumber)
+* [eslint-config-cypress](https://github.com/form8ion/eslint-config-cypress)
+
 [npm-link]: https://www.npmjs.com/package/@form8ion/eslint-config
 
 [npm-badge]: https://img.shields.io/npm/v/@form8ion/eslint-config.svg
