@@ -8,6 +8,10 @@ module.exports = {
     'plugin:eslint-comments/recommended'
   ],
 
+  parserOptions: {
+    ecmaVersion: 2020
+  },
+
   rules: {
     'no-console': 'error',
     'comma-dangle': ['error', 'never'],
