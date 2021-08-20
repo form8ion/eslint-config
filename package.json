@@ -20,7 +20,8 @@
     "lint:md": "remark . --frail",
     "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
-    "generate:md": "remark . --output"
+    "generate:md": "remark . --output",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@form8ion/commitlint-config": "1.0.20",
