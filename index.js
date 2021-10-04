@@ -44,5 +44,10 @@ module.exports = {
     'global-require': 'off',
     'import/prefer-default-export': 'off',
     'no-unused-vars': ['error', {ignoreRestSiblings: true}]
-  }
+  },
+
+  overrides: [{
+    files: 'example.js',
+    rules: {'import/no-extraneous-dependencies': ['error', {devDependencies: true}]}
+  }]
 };
