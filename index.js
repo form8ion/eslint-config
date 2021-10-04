@@ -42,6 +42,7 @@ module.exports = {
     'one-var': ['error', {uninitialized: 'always', initialized: 'never'}],
     'one-var-declaration-per-line': ['error', 'initializations'],
     'global-require': 'off',
-    'import/prefer-default-export': 'off'
+    'import/prefer-default-export': 'off',
+    'no-unused-vars': ['error', {ignoreRestSiblings: true}]
   }
 };
