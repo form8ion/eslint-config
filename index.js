@@ -47,7 +47,7 @@ module.exports = {
   },
 
   overrides: [{
-    files: 'example.js',
+    files: ['example.js', 'rollup.config.js'],
     rules: {'import/no-extraneous-dependencies': ['error', {devDependencies: true}]}
   }]
 };
