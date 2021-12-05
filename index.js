@@ -43,7 +43,8 @@ module.exports = {
     'one-var-declaration-per-line': ['error', 'initializations'],
     'global-require': 'off',
     'import/prefer-default-export': 'off',
-    'no-unused-vars': ['error', {ignoreRestSiblings: true}]
+    'no-unused-vars': ['error', {ignoreRestSiblings: true}],
+    'no-restricted-exports': ['error', {restrictedNamedExports: ['then']}]
   },
 
   overrides: [{
