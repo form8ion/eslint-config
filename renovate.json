@@ -6,6 +6,30 @@
       "matchPackageNames": ["eslint"],
       "matchUpdateTypes": ["major"],
       "commitBody": "BREAKING CHANGE: eslint dependency updated to new major version. review eslint release notes for details of the breaking changes"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["eslint-plugin-import"],
+      "matchUpdateTypes": ["major"],
+      "commitBody": "BREAKING CHANGE: eslint-plugin-import dependency updated to new major version. review eslint-plugin-import release notes for details of the breaking changes"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["eslint-plugin-filenames"],
+      "matchUpdateTypes": ["major"],
+      "commitBody": "BREAKING CHANGE: eslint-plugin-filenames dependency updated to new major version. review eslint-plugin-filenames release notes for details of the breaking changes"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["eslint-plugin-eslint-comments"],
+      "matchUpdateTypes": ["major"],
+      "commitBody": "BREAKING CHANGE: eslint-plugin-eslint-comments dependency updated to new major version. review eslint-plugin-eslint-comments release notes for details of the breaking changes"
+    },
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["eslint-config-airbnb-base"],
+      "matchUpdateTypes": ["major"],
+      "commitBody": "BREAKING CHANGE: eslint-config-airbnb-base dependency updated to new major version. review eslint-config-airbnb-base release notes for details of the breaking changes"
     }
   ]
 }
