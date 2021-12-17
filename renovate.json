@@ -1,1 +1,11 @@
-{"extends": ["github>form8ion/renovate-config"]}
+{
+  "extends": ["github>form8ion/renovate-config"],
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["eslint"],
+      "matchUpdateTypes": ["major"],
+      "commitBody": "BREAKING CHANGE: eslint dependency updated to new major version. review eslint release notes for details of the breaking changes"
+    }
+  ]
+}
