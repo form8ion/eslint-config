@@ -30,9 +30,7 @@ jobs:
     strategy:
       matrix:
         node:
-          - '12.20'
-          - 12
-          - 14
+          - 14.13.1
           - 16
     steps:
       - uses: actions/checkout@v3
