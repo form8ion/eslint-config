@@ -5,7 +5,8 @@ module.exports = {
     'eslint:recommended',
     'airbnb-base',
     'plugin:import/recommended',
-    'plugin:eslint-comments/recommended'
+    'plugin:eslint-comments/recommended',
+    'plugin:anti-trojan-source/recommended'
   ],
 
   parserOptions: {
