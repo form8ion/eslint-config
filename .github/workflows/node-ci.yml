@@ -29,7 +29,8 @@ jobs:
     strategy:
       matrix:
         node:
-          - 14.13.1
+          - 14.17.0
+          - 16.0.0
           - 16
     steps:
       - uses: actions/checkout@v3
