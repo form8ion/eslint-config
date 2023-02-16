@@ -3,20 +3,14 @@
   "description": "shareable configuration for ESLint",
   "license": "MIT",
   "version": "0.0.0-semantically-released",
-  "sideEffects": false,
-  "files": [
-    "index.js"
-  ],
   "engines": {
     "node": "^14.17 || >= 16"
   },
-  "publishConfig": {
-    "access": "public"
-  },
+  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
   "repository": "form8ion/eslint-config",
   "bugs": "https://github.com/form8ion/eslint-config/issues",
   "homepage": "https://npm.im/@form8ion/eslint-config",
-  "author": "Matt Travi <npm@travi.org> (https://matt.travi.org/)",
+  "sideEffects": false,
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
     "lint:js": "eslint .",
@@ -26,6 +20,20 @@
     "lint:engines": "ls-engines",
     "generate:md": "remark . --output",
     "prepare": "husky install"
+  },
+  "files": [
+    "index.js"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint": "8.34.0",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-anti-trojan-source": "1.1.1",
+    "eslint-plugin-eslint-comments": "3.2.0",
+    "eslint-plugin-filenames": "1.3.2",
+    "eslint-plugin-import": "2.27.5"
   },
   "devDependencies": {
     "@form8ion/commitlint-config": "1.0.44",
@@ -37,13 +45,5 @@
     "npm-run-all": "4.1.5",
     "remark-cli": "11.0.0",
     "remark-toc": "8.0.1"
-  },
-  "dependencies": {
-    "eslint": "8.34.0",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-anti-trojan-source": "1.1.1",
-    "eslint-plugin-eslint-comments": "3.2.0",
-    "eslint-plugin-filenames": "1.3.2",
-    "eslint-plugin-import": "2.27.5"
   }
 }
