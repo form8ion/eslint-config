@@ -19,7 +19,8 @@
     "lint:peer": "npm ls >/dev/null",
     "lint:engines": "ls-engines",
     "generate:md": "remark . --output",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint:publish": "publint --strict"
   },
   "files": [
     "index.js"
@@ -44,6 +45,7 @@
     "husky": "8.0.3",
     "ls-engines": "0.9.0",
     "npm-run-all": "4.1.5",
+    "publint": "0.2.0",
     "remark-cli": "11.0.0",
     "remark-toc": "8.0.1"
   }
