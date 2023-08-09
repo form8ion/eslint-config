@@ -38,7 +38,7 @@
     "eslint-plugin-import": "2.28.0"
   },
   "devDependencies": {
-    "@form8ion/commitlint-config": "1.0.53",
+    "@form8ion/commitlint-config": "1.0.54",
     "@form8ion/remark-lint-preset": "6.0.0",
     "ban-sensitive-files": "1.9.19",
     "cz-conventional-changelog": "3.3.0",
