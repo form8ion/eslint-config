@@ -13,15 +13,16 @@
   "sideEffects": false,
   "scripts": {
     "test": "npm-run-all --print-label --parallel lint:*",
+    "lint:engines": "ls-engines",
     "lint:js": "eslint .",
+    "lint:js:fix": "run-s 'lint:js -- --fix'",
     "lint:lockfile": "lockfile-lint",
     "lint:md": "remark . --frail",
-    "lint:sensitive": "ban",
     "lint:peer": "npm ls >/dev/null",
-    "lint:engines": "ls-engines",
+    "lint:publish": "publint --strict",
+    "lint:sensitive": "ban",
     "generate:md": "remark . --output",
-    "prepare": "husky install",
-    "lint:publish": "publint --strict"
+    "prepare": "husky"
   },
   "files": [
     "index.js"
