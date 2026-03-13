@@ -31,6 +31,7 @@
     "access": "public",
     "provenance": true
   },
+  "packageManager": "npm@11.11.1+sha512.6ac6b30a876415dcf545e433ba4cb34bf0c3efbb86088a9415e446de0b5a4fc6fd511d277b59bd40e06e3204fbda28f5aeded346b3a8c780355b39ed31622e12",
   "dependencies": {
     "eslint": "8.57.1",
     "eslint-config-airbnb-base": "15.0.0",
