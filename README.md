@@ -135,7 +135,7 @@ $ npm test
 
 [license-link]: LICENSE
 
-[license-badge]: https://img.shields.io/github/license/form8ion/eslint-config.svg
+[license-badge]: https://img.shields.io/github/license/form8ion/eslint-config.svg?logo=opensourceinitiative
 
 [commit-convention-link]: https://conventionalcommits.org
 
