@@ -46,7 +46,8 @@ module.exports = {
     'import/prefer-default-export': 'off',
     'import/extensions': ['error', 'ignorePackages'],
     'no-unused-vars': ['error', {ignoreRestSiblings: true}],
-    'no-restricted-exports': ['error', {restrictedNamedExports: ['then']}]
+    'no-restricted-exports': ['error', {restrictedNamedExports: ['then']}],
+    'func-names': 'error'
   },
 
   overrides: [{
