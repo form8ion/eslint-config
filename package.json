@@ -33,7 +33,7 @@
   },
   "packageManager": "npm@12.2.3+sha512.a2f98d4517bbe89bdca7513a88e78f43a1fd66be1730eaea81f69e18d86d46f3f75d29762e8fdaf42d4de7f8d194b2ebb2a09e9bfa268067591e96796baca7d5",
   "dependencies": {
-    "eslint": "8.57.1",
+    "eslint": "10.15.0",
     "eslint-config-airbnb-base": "15.0.0",
     "eslint-plugin-anti-trojan-source": "1.1.6",
     "eslint-plugin-eslint-comments": "3.2.0",
